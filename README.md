@@ -6,4 +6,4 @@
  --- 
  Tabelas de IRRF e INSS não são consideradas pela aplicação.
 
- *Você pode acessar a aplicação [aqui](https://criadordeorcamentosltpneto.streamlit.app/).
+ *Você pode acessar a aplicação [aqui](https://criadordeorcamentosltpneto.streamlit.app/)*.
