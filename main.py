@@ -7,6 +7,17 @@ if "salary" not in st.session_state:
 
 # Page's main structure
 st.set_page_config(page_title="Criador de Orçamentos", layout="centered", page_icon="💵")
+# Hiding humburguer menu
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+# Page's content
 st.markdown("# 💵 Criador de Orçamentos")
 st.divider()
 st.caption("Cria uma sugestão de orçamento baseada em seu salário.")
